@@ -40,11 +40,11 @@ const Header = ({}) => {
               <span> </span>
               <span> </span>
             </button>
-            <div class="collapse navbar-collapse py-3 py-lg-0" id="navigation">
+            {/* <div class="collapse navbar-collapse py-3 py-lg-0" id="navigation">
               <ul class="navbar-nav ml-lg-auto">
                 <Eth value={ethValue} />
               </ul>
-            </div>
+            </div> */}
           </nav>
         </div>
       </div>
