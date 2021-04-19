@@ -1,0 +1,285 @@
+/*! CSS Used from: https://technext.github.io/beyond/css/bootstrap.css */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+h5 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+h5 {
+  font-size: 1.25rem;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-lg-4,
+.col-md-4,
+.col-sm-6 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 576px) {
+  .col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+.justify-content-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+@media print {
+  *,
+  ::after,
+  ::before {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  a:not(.btn) {
+    text-decoration: underline;
+  }
+  img {
+    page-break-inside: avoid;
+  }
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+}
+/*! CSS Used from: https://technext.github.io/beyond/vendors/linericon/style.css */
+.lnr {
+  font-family: "Linearicons-Free";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.lnr-heart:before {
+  content: "\e813";
+}
+.lnr-calendar-full:before {
+  content: "\e836";
+}
+.lnr-bubble:before {
+  content: "\e83f";
+}
+/*! CSS Used from: https://technext.github.io/beyond/css/style.css */
+h5 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #222222;
+}
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+.single-blog {
+  border: 1px solid #eee;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+@media (max-width: 991px) {
+  .single-blog {
+    margin-bottom: 30px;
+  }
+}
+.single-blog .blog-thumb {
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 575px) {
+  .single-blog .blog-thumb img {
+    width: 100%;
+  }
+}
+.single-blog .blog-thumb:before {
+  position: absolute;
+  content: "";
+  background: rgba(255, 255, 255, 0.4);
+  z-index: 999;
+  left: 110%;
+  top: 0;
+  height: 100%;
+  width: 130%;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  
+}
+.single-blog .blog-details {
+  padding: 25px;
+}
+.single-blog .blog-details .blog-meta {
+  margin-top: 15px;
+}
+.single-blog .blog-details .blog-meta .m-gap {
+  padding-right: 20px;
+  color: #777777;
+}
+.single-blog .blog-details .blog-meta .m-gap span {
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+.single-blog .blog-details h5 {
+  font-size: 18px;
+  margin: 15px 0px 15px;
+}
+.single-blog .blog-details h5 a {
+  color: #222222;
+  font-size: 18px;
+  line-height: 27px;
+}
+.single-blog:hover {
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+}
+.single-blog:hover .blog-thumb:before {
+  left: -130%;
+}
+h5 {
+  font-size: 16px;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "Linearicons-Free";
+  src: url("https://technext.github.io/beyond/vendors/linericon/fonts/Linearicons-Free.eot?w118d");
+  src: url("https://technext.github.io/beyond/vendors/linericon/fonts/Linearicons-Free.eot#iefixw118d")
+      format("embedded-opentype"),
+    url("https://technext.github.io/beyond/vendors/linericon/fonts/Linearicons-Free.woff2?w118d")
+      format("woff2"),
+    url("https://technext.github.io/beyond/vendors/linericon/fonts/Linearicons-Free.woff?w118d")
+      format("woff"),
+    url("https://technext.github.io/beyond/vendors/linericon/fonts/Linearicons-Free.ttf?w118d")
+      format("truetype"),
+    url("https://technext.github.io/beyond/vendors/linericon/fonts/Linearicons-Free.svg?w118d#Linearicons-Free")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDTbtPY_Q.woff2)
+    format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDYbtPY_Q.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDZbtPY_Q.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtM.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -25px;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
