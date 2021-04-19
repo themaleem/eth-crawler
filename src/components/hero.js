@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Hero = () => {
   return (
     <section className="hero-section py-3 py-md-5">
@@ -15,7 +16,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="col-12 col-lg-6 d-lg-block d-none  text-center">
-            <img className="img-fluid" src="/img/side-image.img" alt="..." />
+            <img className="img-fluid" src="/img/ethlogo.png" alt="..." />
           </div>
         </div>
       </div>

@@ -15,11 +15,11 @@ const NewsSection = ({ fetchedNews, loading }) => {
                 <div class="blog-thumb"></div>
                 <div class="blog-details">
                   <h5>
-                    <a href={item.link}>{item.title}</a>
+                    <a href={item.link} target="_blank" rel="noreferrer">{item.title}</a>
                   </h5>
                   <p>
                     {item.description.slice(0, 120)}...
-                    <a href={item.link}>[readmore]</a>
+                    <a href={item.link} target="_blank" rel="noreferrer">[readmore]</a>
                   </p>
                 </div>
               </div>
