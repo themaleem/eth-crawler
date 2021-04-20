@@ -45,7 +45,7 @@ const HomeScreen = () => {
       <Container style={{padding: '10px'}}>
         <Row>
           <Col md={4} ><Eth value={ethValue}/></Col>
-          <Col md={{ span: 4, offset: 4 }}> <Button variant="primary" onClick={refresh}>Get new updates</Button>{' '}</Col>
+          <Col md={{ span: 4, offset: 4 }}> <Button variant="primary" onClick={refresh} style={{background : "#627eea", border: "#627eea"}}>Get new updates</Button>{' '}</Col>
         </Row> 
       </Container>
       <NewsSection loading={loading} fetchedNews={fetchedNews} />

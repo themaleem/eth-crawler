@@ -23,7 +23,7 @@ const Header = ({}) => {
           <nav class="navbar navbar-expand-lg">
             <div class="site-logo">
               <Link class="navbar-brand" to="/">
-                <span class="logo-text">ETH</span>
+                <span class="logo-text" style={{color : "#4550e6"}}>ETH</span>
               </Link>
             </div>
 
